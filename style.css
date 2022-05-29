@@ -93,10 +93,12 @@ body {
     margin: auto;
     width: 80%;
     touch-action: none;
+    overflow-y: scroll;
 }
 
 .row {
     display: table-row;
+    overflow-y: scroll;
 }
 
 .column {
@@ -107,6 +109,7 @@ body {
     width: 300px;
     background-color: #14121c;
     text-align: center;
+    overflow-y: scroll;
 }
 
 
